@@ -5,7 +5,7 @@ __author__ = 'jslvtr'
 
 
 class Database(object):
-    URI = os.environ.get("MONGO_URL")
+    URI = os.environ.get("MONGODB_URI")
     DATABASE = None
 
     @staticmethod
